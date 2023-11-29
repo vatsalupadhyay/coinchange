@@ -1,0 +1,172 @@
+@charset "utf-8";
+body {
+    font: 100% 'Baloo Bhai 2', cursive;
+    /*background: #666666; */
+    margin: 0;
+    /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+    padding: 0;
+    text-align: center;
+    /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+    color: #000000;
+}
+
+.VisualizationMainPage #mainContent {
+    /*padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+    background: #FFFFFF;
+}
+
+.VisualizationMainPage #container  {
+    background: #ffffff;
+    /*margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+    text-align: left;
+    /* this overrides the text-align: center on the body element. */
+}
+
+
+
+.VisualizationMainPage #algoControlSection {
+    background: rgb(255, 255, 255);
+    color: #000000;
+}
+
+.VisualizationMainPage #algoControlSection #AlgorithmSpecificControls{
+    justify-content: center;
+    /* align-items: center; */
+    display: flex;
+    background: #676d77;
+}
+.VisualizationMainPage #algoControlSection #AlgorithmSpecificControls td{
+    padding: 10px 30px;
+}
+.VisualizationMainPage #algoControlSection #AlgorithmSpecificControls tr td{
+    padding: 0px;
+   
+}
+
+.VisualizationMainPage #generalAnimationControlSection {
+    background: #393E46;
+    color: #EEEEEE;
+    
+}
+
+.VisualizationMainPage #header {
+    background: #222831;
+    color: #EEEEEE;
+    padding: 0 10px 0 20px;
+    text-align: center;
+}
+
+.VisualizationMainPage #header A:visited {
+    text-decoration: none;
+    color: #ffCC33;
+}
+
+.VisualizationMainPage #header h1 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.VisualizationMainPage #header A:link {
+    text-decoration: none;
+    color: #ffCC33;
+}
+
+.VisualizationMainPage #container {
+    background: #FFFFFF;
+    margin: 0 auto;
+    /* the auto margins (in conjunction with a width) center the page */
+    text-align: left;
+    /* this overrides the text-align: center on the body element. */
+}
+
+.VisualizationMainPage #footer A:visited {
+    text-decoration: none;
+    color: #a66fe5;
+}
+
+.VisualizationMainPage #footer A:link {
+    text-decoration: none;
+    color: #ffCC33;
+}
+
+.VisualizationMainPage #mainContent h1 {
+    padding: 0 20px;
+    background: #FFFFFF;
+    color: #006633
+}
+
+.VisualizationMainPage #mainContent h2 {
+    padding: 0 20px;
+    background: #FFFFFF;
+    color: #006633
+}
+
+.VisualizationMainPage #mainContent h3 {
+    padding: 0 20px;
+    background: #FFFFFF;
+    color: #006633
+
+}
+
+.VisualizationMainPage #footer {
+    padding: 0 10px;
+    background: #222831;
+    color: #ffcc33;
+}
+
+.VisualizationMainPage #footer p {
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+EM {
+    text-decoration: bold;
+}
+
+canvas#canvas{
+    display: flex;
+    padding-left: 330px;
+   
+}
+
+table#GeneralAnimationControls {
+    display: flex;
+    justify-content: center;
+ 
+
+}
+
+*{
+    margin:0;
+    padding:0;
+  }
+  #abc{
+    width:100%;
+   
+    background-color:#222831 ;
+    background-size: cover;
+  }
+  nav{
+    width: 100%;
+    height: 50px;
+    background-color: #0005;
+    line-height: 50px;
+  }
+  nav ul{
+    float: left;
+    margin-right: 30px;
+  }
+  nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.7s all;
+  }
+  nav ul li:hover{
+    background-color:#088;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 30px;
+  }

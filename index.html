@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dynamic Programming (Coin Change)</title>
+
+
+    <link rel="stylesheet" href="visualizationPageStyle.css" />
+
+    <link rel="stylesheet" href="ThirdParty/jquery-ui-1.8.11.custom.css" />
+
+    <script src="ThirdParty/jquery-1.5.2.min.js"></script>
+    <script src="ThirdParty/jquery-ui-1.8.11.custom.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      type="text/javascript"
+      src="AnimationLibrary/CustomEvents.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="AnimationLibrary/UndoFunctions.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="AnimationLibrary/AnimatedObject.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="AnimationLibrary/AnimatedLabel.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="AnimationLibrary/AnimatedCircle.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="AnimationLibrary/AnimatedRectangle.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="AnimationLibrary/AnimatedLinkedList.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="AnimationLibrary/HighlightCircle.js"
+    ></script>
+    <script type="text/javascript" src="AnimationLibrary/Line.js"></script>
+    <script
+      type="text/javascript"
+      src="AnimationLibrary/ObjectManager.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="AnimationLibrary/AnimationMain.js"
+    ></script>
+    <script type="text/javascript" src="AlgorithmLibrary/Algorithm.js"></script>
+    <script type="text/javascript" src="AlgorithmLibrary/DPChange.js"></script>
+  </head>
+
+  <body onload="init();" class="VisualizationMainPage">
+ <div>
+ 
+    <div id="abc">
+        <nav>
+            <ul>
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>  
+</div>
+    <div id="container">
+      <div id="header">
+        <h1>Dynamic Programming (Coin Change)</h1>
+      </div>
+
+
+      <div id="mainContent">
+        <div id="algoControlSection">
+          <!-- Table for buttons to control specific animation (insert/find/etc) -->
+          <!-- (filled in by javascript code specific to the animtion) -->
+          <table id="AlgorithmSpecificControls"></table>
+        </div>
+
+        <!-- Drawing canvas where all animation is done.  Note:  can be resized in code -->
+
+        <canvas id="canvas" width="1000" height="500"> </canvas>
+
+        <div id="generalAnimationControlSection">
+          <!-- Table for buttons to control general animation (play/pause/undo/etc) -->
+          <!-- (filled in by javascript code, specifically AnimationMain.js)  -->
+
+          <table id="GeneralAnimationControls"></table>
+        </div>
+      </div>
+      <!-- mainContent -->
+
+      <div id="footer">
+        <p>Copyright@2023 IPD_PROJECT</p>
+      </div>
+    </div>
+    <!-- container -->
+  </body>
+</html>
